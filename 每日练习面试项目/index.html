@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>面试练习项目</title>
+</head>
+<body>
+    <h1>冒泡排序</h1>
+    <div class="moaao" style="width: 200px;">
+         查看源代码
+    </div>
+        <script>
+           var arr = [545,5,8,5,78,45,4,7,45,7,15,7,4]
+           for (let j = 0; j < arr.length; j++) {
+            arr.forEach((e,i) => {
+                if(arr[i]<arr[i+1]){
+                    let tem = arr[i+1]
+                    arr[i+1] = arr[i]
+                    arr[i] = tem
+                }
+            });    
+           }
+           console.log(arr);
+        </script>
+
+    <h1>斐波那契数列</h1>
+    
+    
+
+</body>
+</html>
